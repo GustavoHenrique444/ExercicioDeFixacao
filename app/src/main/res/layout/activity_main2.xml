@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/ValorA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="49dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintDigiteumnumero"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/Digite_um_numero"
+        app:layout_constraintBottom_toTopOf="@+id/ValorB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/ValorB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="55dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintDigiteoutronumero"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:onClick="editTextB"
+        android:text="@string/Digite_outro_numero"
+        app:layout_constraintBottom_toTopOf="@+id/txtResultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="203dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="86dp"
+        app:layout_constraintBottom_toTopOf="@+id/btncalcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="244dp"
+        android:onClick="verificarMultiplos"
+        android:text="@string/calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

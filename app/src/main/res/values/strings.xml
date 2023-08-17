@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ExercícioFixação</string>
+    <string name="atividade_de_fixa_o">Atividade De Fixação</string>
+    <string name="exerc_cio_6_card_pio">Exercício 6 - Cardápio</string>
+    <string name="exerc_cio_1_n_meros_multiplos">Exercício 1 - Números Multiplos</string>
+    <string name="calcular">Calcular</string>
+    <string name="digite_um_n_mero">Digite um número</string>
+    <string name="digite_outro_n_mero">Digite outro número</string>
+    <string name="calcular2">Calcular</string>
+    <string name="hintProduto">Digite o código do produto:</string>
+    <string name="hintQuantidade">Digite Quantidade:</string>
+    <string name="digite_o_c_digo_do_produto"/>
+    <string name="digite_quantidade"/>
+    <string name="hintDigiteumnumero">Digite um número</string>
+    <string name="Digite_um_numero"/>
+    <string name="hintDigiteoutronumero">Digite outro número</string>
+    <string name="Digite_outro_numero"/>
+    <string name="_3_sobremesa">3 = Sobremesa</string>
+    <string name="_1_cachorro_quente">1 = Cachorro Quente</string>
+    <string name="_2_refrigerante">2 = Refrigerante</string>
+</resources>
