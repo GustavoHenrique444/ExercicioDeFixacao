@@ -68,5 +68,27 @@
 
 <details>
   <summary><h1>Enviando pro Git</h1></summary>
-<p><strong>Git Hint:</strong> Neste trecho de código do terminal, alguém está interagindo com um repositório Git recém-inicializado. Eles verificaram o status do repositório, que mostra que estão no ramo "master" e não fizeram nenhum commit ainda. Alguns arquivos e diretórios não rastreados são listados, incluindo configurações do projeto Android, arquivos Gradle e outros. O Git sugere usar "git add" para começar a rastrear esses arquivos antes de criar um commit.</p>
+<p><strong>Git Hint:</strong> Usamos o git hint para dar o inicio do envio do projeto para o repositório.</p>
+<p><strong>Git Status:</strong> Usamos o  git status para entender melhor o envio do projeto para o nosso repositório.</p>
+
+![Captura de tela 2023-08-17 205741](https://github.com/GustavoHenrique444/ExercicioDeFixacao/assets/127442583/3815b2f3-5493-4726-8894-4a74dbddf1a7)
+
+<p><strong>Git Add .</strong> Aqui foi onde enviamos tudo de uma vez para o nosso repositório no GitHub.</p>
+
+![Captura de tela 2023-08-17 205817](https://github.com/GustavoHenrique444/ExercicioDeFixacao/assets/127442583/b12eb3ad-fe10-4662-9baf-39ebc997fff7)
+
+<p><strong>Git Status:</strong> Usamos o git status novamente para verificar se não havia algo de errado.</p>
+
+![Captura de tela 2023-08-17 205914](https://github.com/GustavoHenrique444/ExercicioDeFixacao/assets/127442583/2c48eb13-6cc8-4f51-84b0-74b3b6cde152)
+
+<p><strong>Git commit -a -m ("Enviando o Aplicativo"):</strong> Aqui já tinhamos enviado o aplicativo pro repositório.</p>
+
+![Captura de tela 2023-08-17 205942](https://github.com/GustavoHenrique444/ExercicioDeFixacao/assets/127442583/0585809e-2ec2-4955-a48c-8bf82f844d50)
+
+
+<p><strong>Git Remote Add Origin:</strong> Aqui já tinhamos linkado e enviado o repositório para o GitHub.</p>
+
+![Captura de tela 2023-08-17 210041](https://github.com/GustavoHenrique444/ExercicioDeFixacao/assets/127442583/7040a27b-306c-4235-9934-bca3767b39f8)
+
+  
 </details>
