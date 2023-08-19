@@ -92,3 +92,12 @@
 
   
 </details>
+
+<details>
+<summary><h1>Vídeo Testando o Aplicativo</h1></summary>
+
+https://github.com/GustavoHenrique444/ExercicioDeFixacao/assets/127442583/b10ea72e-42e7-4257-a922-40e59a5210ce
+
+
+
+</details>
